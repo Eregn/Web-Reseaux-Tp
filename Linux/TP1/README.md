@@ -34,7 +34,7 @@ Pour permettre à ce groupe d'accéder aux droits `root` :
 
 ```
 Verif de la creation de l'utilisateur node2-admin
-sudo cat /etc/passwd | grep n
+sudo cat /etc/passwd | grep node2-admin
 node2-admin:x:1001:1001::/home/node2-admin:/bin/bash
 
 ```
